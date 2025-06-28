@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Garamond;
+
+}
+
+body {
+    text-align: center;
+    background-color: #3E3E3E;
+}
+
+li {
+    margin-top: 1.2em;
+    padding: 1em;
+    display: inline-block;
+
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1em;
+    color: #C9A66B;
+}
+
+a:hover {
+    background-color: #A03E3E;
+}
+
+article figure img {
+    text-align: center;
+    margin-top: 3em;
+    border: 1px solid #C9A66B;
+}
+
+article figure {
+    display: inline-block;
+    max-width: 100%;
+}
+
+section {
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-top: 3em;
+    border: 1px s
+}
+
+section ul,
+section li {
+    margin: 0;
+}
+
+section h2,
+section p {
+    text-align: left;
+}
+
+section p {
+    font-size: 1em;
+}
+
+.contato {
+    height: 25em;
+}
+
+
+figcaption {
+    font-style: italic;
+    margin-top: 0.6em;
+    color: #C9A66B;
+    text-align: left;
+}
+
+footer {
+    margin-top: 1.6em;
+}
+
+p {
+    font-size: 1em;
+    padding: 1.2em;
+    color: #C9A66B;
+}
+
+h2 {
+    color: #C9A66B;
+    text-align: left;
+
+}
