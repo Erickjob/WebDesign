@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to right, #72CFED, #186C86);
+    padding: 0.6em;
+}
+
+figure {
+    margin-left: 1em;
+}
+
+section {
+    margin: 0 auto;
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+    max-width: 60rem;
+    max-height: 100rem;
+}
+
+div {
+    justify-content: bottom;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+span {
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    padding-bottom: 1em;
+    display: block;
+    color: #005C85;
+    font-size: large;
+
+}
+
+div {
+    box-sizing: border-box;
+    gap: 1em;
+}
