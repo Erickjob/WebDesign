@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+nav#navegacao_conteudo {
+    border: 3px solid red;
+    background-color: cadetblue;
+    max-width: 10rem;
+    display: inline-block;
+    text-align: left;
+    height: 100%;
+}
+
+h1 {
+    padding: 2em;
+}
+
+nav#navegacao_conteudo ul {
+    padding-left: 2em;
+    /* padding-right: 2em; */
+    /* padding-bottom: 2em; */
+    list-style-type: none;
+}
+
+nav#navegacao_conteudo li {
+    padding: 0.4em;
+
+}
+
+nav#navegacao_conteudo a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    margin-top: 1em;
+    width: 100vw;
+    border: 3px solid blue;
+}
+
+section#conteudo {
+    width: 90%;
+    display: flex;  
+    row-gap: 2em;
+    justify-content: space-between;
+    margin-left: 2em;
+    /* width: 90em; */
+    border: 2px green solid;
+}
+
+h2 {
+    /* flex-basis: 100%; */
+    /* width: 100%; */
+    height: 2em;
+    border: 3px solid rgb(60, 255, 0);
+}
+
+form {
+    /* width: 100%; */
+    /* flex-basis: 100%; */
+    height: 2em;
+    border: 1px solid red;
+}
+
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    
+}
+
+div {
+    border: 1px solid black;
+    flex-basis: 17%;
+    text-align: center;
+}
+
+div div {
+    height: 62%;
+}
+
+div ul {
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+div li {
+    /* border: 1px solid red; */
+    /* justify-content: space-around; */
+    padding: 0.3em;
+}
+
+
+div a {
+    justify-content: space-between;
+    /* display: inline-block; */
+    padding-bottom: 2em;
+
+}
+
+section#navegacao {
+    width: 10%;
+    display: block;
+    /* flex-basis: 10%; */
+    height: 100vh;
+}
+
+nav.menu_usuario {
+    border: 1px solid red;
+
+}
+
+figure {
+    background-color: aqua;
+}
+
+
+
+
+/* div p {
+    padding-bottom: 2em;
+    background-color: rgb(222, 221, 221);
+
+} */
