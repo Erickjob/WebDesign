@@ -49,10 +49,11 @@ article {
 }
 
 section#conteudo {
+    flex-wrap: wrap;
     width: 90%;
-    display: flex;  
+    display: flex;
     row-gap: 2em;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left: 2em;
     /* width: 90em; */
     border: 2px green solid;
@@ -60,15 +61,15 @@ section#conteudo {
 
 h2 {
     /* flex-basis: 100%; */
-    /* width: 100%; */
-    height: 2em;
+    width: 100%;
+    /* height: 2em; */
     border: 3px solid rgb(60, 255, 0);
 }
 
 form {
-    /* width: 100%; */
+    width: 100%;
     /* flex-basis: 100%; */
-    height: 2em;
+    /* height: 2em; */
     border: 1px solid red;
 }
 
@@ -76,17 +77,19 @@ div#container {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
-    
+
 }
 
-div {
+div.card {
     border: 1px solid black;
     flex-basis: 17%;
+    row-gap: 2em;
     text-align: center;
 }
 
-div div {
+div.card div {
     height: 62%;
+    border-bottom: 1px solid black;
 }
 
 div ul {
