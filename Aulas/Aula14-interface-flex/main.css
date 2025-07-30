@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 80rem;
+}
+
+section {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+    /* row-gap --- altera o espaçamento vertical */
+}
+
+section h2 {
+    background-color: cadetblue;
+    flex-basis: 100%;
+
+    /* pode variar a porcentagem, equivale a largura de um item (filho) de um container(pai) flex, se tem o display flex usar flex-basis porque tem mais possibilidade que
+    que width */
+}
+
+section div {
+    padding: 15px;
+    flex-basis: 22%;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #ddd;
+    /* flex-basis defini a largura de cada div em relação a section, possibilitando 4 cards dentro do container 100/4=25% , entretanto,
+    para deixar espaços entre as div coloco um pouco menor que os 25%, colocando 22% */
+}
