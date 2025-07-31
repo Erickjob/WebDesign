@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <main>
 
+    <main>
+        <!--flex -->
         <section>
-            <nav id="navegacao_conteudo">
+            <nav id="navegacao_vertical">
 
                 <h1>DIATINF</h1>
                 <ul>
@@ -28,125 +29,123 @@
 
         </section>
 
-        <article>
-            <!-- article esta flex e 100vw -->
+        <article id="container">
+            <!-- não tem flex -->
 
-            <section id="conteudo">
-                <!-- display: flex;  flex-wrap:wrap;  row-gap 2em 
-                 -->
-
-
+            <section id="navegacao_horizontal">
+                <!-- Contem flex -->
                 <form action="">
                     <label for=""></label>
-                    <input type="text">
+                    <input style="width: 200px;" type="text">
                     <input type="submit" value="Enviar">
                 </form>
 
-                <h2>Relatório</h2>
-
-                <div id="container">
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div><a href="#">Alunos com mais de 50% de faltas</a></div>
-                        <ul>
-                            <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
-                            <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </section>
-
-            <section id="navegacao">
                 <nav class="menu_usuario">
                     <a href="#">Erick Job <img src="imagens/caret-down-fill.svg" alt="Setinha para menu"></a>
                 </nav>
-
             </section>
+
+            <h2>Relatório</h2>
+
+            <div id="conteudo">
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div><a href="#">Alunos com mais de 50% de faltas</a></div>
+                    <ul>
+                        <li><a href=""><img src="imagens/bookmark-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/box-fill.svg" alt=""></a></li>
+                        <li><a href=""><img src="imagens/bell-fill.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
         </article>
     </main>
+
 </body>
 
 </html>

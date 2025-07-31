@@ -7,12 +7,12 @@ body {
 
 .container {
     display: flex;
-    
+    border: 1px solid red;
+
 
 }
 
 .menu_esquerdo {
-
     background-color: #376b68;
     color: black;
     padding: 20px;
@@ -45,6 +45,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 60px;
+    border: 1px solid red;
 }
 
 .cabecalho input {
@@ -57,16 +58,19 @@ body {
     margin-left: auto;
     font-size: 14px;
 }
-main h2{
-    margin-left:60px;
+
+main h2 {
+    margin-left: 60px;
     padding: 2px;
 }
 
 #cards {
+    border: 1px solid red;
+
     display: flex;
     flex-wrap: wrap;
     row-gap: 1rem;
-    
+
 
 }
 
@@ -82,7 +86,7 @@ main h2{
     text-align: center;
     flex-basis: 10%;
     align-items: center;
-    
+
 
 
 }
@@ -91,6 +95,6 @@ main h2{
 .imagens {
     display: flex;
     justify-content: space-between;
-    
+
 
 }
