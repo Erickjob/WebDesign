@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: grid;
+            grid-template-areas:
+            "y x"
+            "y z"
+             ;
+             /* é essencial ter o display grid, e para organização tbm é preciso o gri-template-area */
+        }
+        section{
+            border: 1px solid red;
+        }
+        /* É OBRIGATÓRIO o uso de variável no nos filhos do container que esta o display grid
+        nesse caso nos items "a, b e c" cada um dele PRECISAM de uma variável, como x, y e z como esta embaixo */
+        section.a{
+            grid-area: x;
+        }
+        section.b{
+            grid-area: y;
+        }
+        section.c{
+            grid-area: z ;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section class="a">
+            <p>ITEM 1</p>
+        </section>
+        <section class="b">
+            <p>ITEM 2</p>
+        </section>
+        <section class="c">
+            <p>ITEM 3</p>
+        </section>
+    </main>
+    
+</body>
+</html>

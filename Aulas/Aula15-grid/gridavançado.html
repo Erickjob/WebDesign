@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: grid;
+            gap: 1rem;
+            margin: 0 auto;
+            max-width: 70rem;
+            /* Posso colocar o margin e o max width, mas não é dependente  */
+            grid-template-columns: 200px 4fr 4fr;
+             /* a quantidade de colunas no grid é preciso estar casado na quantidades de linhas 3 colunas, tenho nav x x, então será fr fr fr*/
+             /* posso colocar outras unidades no lugar do "fr" */
+
+             grid-template-rows: 5rem 15rem 5rem;
+             /* altura das linhas */
+
+            grid-template-areas:
+            /* 
+            "nav y x"
+            "nav y z"
+             */
+            "nav x x "
+            "nav y y "
+            "nav z w "
+             ;
+             /* é essencial ter o display grid, e para organização tbm é preciso o gri-template-area */
+             /* não posso fazer uma celula com mesclagem diagonal.     Posso ter um item vazio, colocando " . " */
+        }
+        section, nav{
+            border: 1px solid black;
+        }
+        /* É OBRIGATÓRIO o uso de variável no nos filhos do container que esta o display grid
+        nesse caso nos items "a, b e c" cada um dele PRECISAM de uma variável, como x, y e z como esta embaixo */
+        section.a{
+            grid-area: x;
+        }
+        section.b{
+            grid-area: y;
+        }
+        section.c{
+            grid-area: z ;
+        }
+        section.d{
+            grid-area: w ;
+        }
+        nav{
+            grid-area: nav;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <p>NAV</p>
+        </nav>
+        <section class="a">
+            <p>ITEM 1</p>
+        </section>
+        <section class="b">
+            <p>ITEM 2</p>
+        </section>
+        <section class="c">
+            <p>ITEM 3</p>
+        </section>
+        <section class="d">
+            <p>ITEM 4</p>
+        </section>
+    </main>
+    
+</body>
+</html>
