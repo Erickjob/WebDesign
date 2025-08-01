@@ -63,7 +63,7 @@ nav.menu_usuario {
 }
 
 div#conteudo {
-    width: 60rem;
+    max-width: 60rem;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
