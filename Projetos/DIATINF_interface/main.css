@@ -7,11 +7,9 @@
 
 main {
     display: flex;
-    border: 1px solid red;
 }
 
 nav#navegacao_vertical {
-    border: 1px solid red;
     background-color: #4a898b;
     width: 11rem;
     display: inline-block;
@@ -43,9 +41,7 @@ article#container {
     margin-top: 1em;
     flex-wrap: wrap;
     width: 90%;
-    justify-content: space-between;
-    margin-left: 2em;
-    /* border: 2px solid blue; */
+
 }
 
 h2 {
@@ -62,39 +58,34 @@ section#navegacao_horizontal {
 
 nav.menu_usuario {
     padding-right: 2em;
-    border: 1px solid red;
+    margin-right: 4em;
 
 }
 
 div#conteudo {
-    max-width: 90rem;
+    width: 60rem;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     row-gap: 2rem;
-    border: 2px solid red;
-
 }
 
 div.card {
-    margin: 2em;
-    display: flex;
     justify-content: space-between;
+    background-color: #edecea;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     box-sizing: border-box;
-    border: 1px solid black;
-    flex-basis: 10%;
-    row-gap: 2em;
+    border: 1px solid gray;
+    flex-basis: 17%;
     text-align: center;
+
 }
 
-/* div.card div {
-    border-bottom: 1px solid black;
-} */
 
 div ul {
-    background-color: #4a898b;
+    background-color: white;
     padding: 1em;
     display: flex;
     justify-content: center;
@@ -102,11 +93,12 @@ div ul {
 }
 
 div li {
-    padding: 0.3em;
+    padding: 0.5em;
 }
 
 div.card div {
     padding: 1em;
+    padding-bottom: 2em;
 }
 
 div.card div a {
