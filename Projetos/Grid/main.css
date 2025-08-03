@@ -4,7 +4,25 @@
     font-family: 'roboto mono', monospace;
 }
 
+header {}
+
 main {
     display: grid;
     margin: 0 auto;
+    grid-template-columns: 100px 3fr 3fr 3fr 3fr;
+
+    grid-template-rows: 10rem 10rem 10rem;
+
+    grid-template-areas:
+        "navegacao_usuario evento programacao programacao palest_amanda"
+        "navegacao_usuario topicos inscricao palest_natalia palest_henrique"
+        "navegacao_usuario palest_larissa isncricao organizacao organizacao"
+    ;
+}
+
+table,
+td,
+tr {
+    text-align: center;
+    border: 1px solid black;
 }
