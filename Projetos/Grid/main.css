@@ -4,19 +4,45 @@
     font-family: 'roboto mono', monospace;
 }
 
-header {}
+body {
+    max-width: 100em;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1.5em;
+    color: white;
+    background: linear-gradient(to left, #7292A6, #224459);
+}
+
+nav.navegacao_usuario {
+
+    background-color: #bfd0df;
+    height: 100%;
+}
+
+nav.navegacao_usuario li {
+    list-style: none;
+    padding: 1.5em;
+}
+
+nav.navegacao_usuario a {
+    font-size: 2em;
+    color: #50748a;
+    text-decoration: none;
+    padding: 2em;
+}
+
 
 main {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 100px 3fr 3fr 3fr 3fr;
+    /* grid-template-columns: 100px 3fr 3fr 3fr 3fr; */
 
-    grid-template-rows: 10rem 10rem 10rem;
+    /* grid-template-rows: 10rem 10rem 10rem; */
 
     grid-template-areas:
-        "navegacao_usuario evento programacao programacao palest_amanda"
-        "navegacao_usuario topicos inscricao palest_natalia palest_henrique"
-        "navegacao_usuario palest_larissa isncricao organizacao organizacao"
+    navegacao_usuario 
     ;
 }
 
@@ -25,4 +51,12 @@ td,
 tr {
     text-align: center;
     border: 1px solid black;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    background: #224459;
+    padding: 4em;
 }
