@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    display: flex;
+    background: linear-gradient(to right, #7F329E, #DC467F) ; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+article{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    max-width: 90rem ;
+}
+div{
+    box-shadow: 0 0 0 0 5px #853290;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    width: 18rem;
+    height: 30em;
+    border-radius: 1.5em;
+}
+div h2{
+    font-size: 1.2em;
+    padding: 2em;
+
+}
+h2.valor{
+    padding: 1em;
+    display: inline-block;
+    width: 3em;
+    color: #853290;
+    font-size: 2.8em;
+}
+
+div#anual{
+    height: 40em;
+
+}
+div#mensal{
+    margin-top: 5em;
+}
+div#semestral{
+    margin-top: 5em;
+}
+input{
+    padding: 0.5em 3.5em 0.5em 3.5em;
+    background-color: #7F329E;
+    color: white;
+}
+p{
+    padding: 2em;
+    font-size: 0.8em;
+}
